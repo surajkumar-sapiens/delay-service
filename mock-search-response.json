@@ -1,33 +1,33 @@
 {
   "claims": [
     {
-      "claimDate": "2022-11-07T00:00:00",
-      "claimId": null,
-      "claimNumber": "10098",
+      "claimDate": "2023-10-03T00:00:00",
+      "claimId": 143856,
+      "claimNumber": "143856",
       "claimStatus": "Open",
-      "lobDescription": "N/A",
-      "policyHolderName": "Mim Jack High",
-      "policyNumber": "10098"
+      "lobDescription": "Property",
+      "policyHolderName": "Willem  Abraham",
+      "policyNumber": "PL-SAP0001116454/00"
     }
   ],
   "contacts": [
     {
-      "contactName": "Mim Jack High",
-      "contactNumber": "10098",
-      "email": "mim@gmail.com",
-      "telephoneNumber": "12345",
-      "totalPolicyCount": 1
+      "contactName": "Willem Abraham",
+      "contactNumber": "951759",
+      "email": "wabraham@mailinator.com",
+      "telephoneNumber": "911446262",
+      "totalPolicyCount": 2
     }
   ],
   "policies": [
     {
-      "externalPolicyNr": "PL-500000010098/00",
-      "lobDescription": null,
-      "policyEndDate": "2023-12-31T23:59:59",
-      "policyHolderName": "Mim Jack High",
-      "policyId": "10098|101|IDIT",
-      "policyNumber": "10098",
-      "policyStartDate": "2022-11-07T00:00:00",
+      "externalPolicyNr": "PL-SAP0001116454/00",
+      "lobDescription": "Property",
+      "policyEndDate": "2024-09-29T00:00:00",
+      "policyHolderName": "Willem Abraham",
+      "policyId": "PL-SAP0001116454/00",
+      "policyNumber": "PL-SAP0001116454/00",
+      "policyStartDate": "2023-09-29T00:00:00",
       "policyStatus": "Policy"
     }
   ]
