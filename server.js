@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const mockSearchResponse = require("./mock-search-response.json");
 
 const server = express();
 
@@ -14,6 +15,20 @@ server.get("/sleep", async (req, res) => {
   try {
     await sleep(req.query.delay);
     res.send({});
+  } catch (e) {
+    console.error(e);
+    res.send({});
+  }
+});
+
+server.get("/search", async (req, res) => {
+  try {
+    await sleep(1200);
+    if (req.query.suggestion) {
+      res.send(["10098"]);
+    } else {
+      res.send(mockSearchResponse);
+    }
   } catch (e) {
     console.error(e);
     res.send({});

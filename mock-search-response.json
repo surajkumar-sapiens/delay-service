@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "claimDate": "2022-11-07T00:00:00",
+      "claimId": null,
+      "claimNumber": "10098",
+      "claimStatus": "Open",
+      "lobDescription": "N/A",
+      "policyHolderName": "Mim Jack High",
+      "policyNumber": "10098"
+    }
+  ],
+  "contacts": [
+    {
+      "contactName": "Mim Jack High",
+      "contactNumber": "10098",
+      "email": "mim@gmail.com",
+      "telephoneNumber": "12345",
+      "totalPolicyCount": 1
+    }
+  ],
+  "policies": [
+    {
+      "externalPolicyNr": "PL-500000010098/00",
+      "lobDescription": null,
+      "policyEndDate": "2023-12-31T23:59:59",
+      "policyHolderName": "Mim Jack High",
+      "policyId": "10098|101|IDIT",
+      "policyNumber": "10098",
+      "policyStartDate": "2022-11-07T00:00:00",
+      "policyStatus": "Policy"
+    }
+  ]
+}
