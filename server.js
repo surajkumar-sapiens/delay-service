@@ -24,8 +24,13 @@ server.get("/sleep", async (req, res) => {
 server.get("/search", async (req, res) => {
   try {
     await sleep(1200);
-    if (req.query.suggestion) {
-      res.send(["10098"]);
+    if (req.query.suggestion === "true") {
+      res.send([
+        mockSearchResponse.claims[0].claimNumber,
+        mockSearchResponse.contacts[0].contactNumber,
+        mockSearchResponse.contacts[0].contactName,
+        mockSearchResponse.policies[0].policyNumber,
+      ]);
     } else {
       res.send(mockSearchResponse);
     }
